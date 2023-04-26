@@ -15,11 +15,89 @@ body {
     background-color: var(--amarelo);
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: var(--verde);
+    scrollbar-color: var(--amarelo);
 }
 
 header {
-    background-image: linear-gradient(to bottom, #f0de1f, var(--amarelo));
-    min-height: 150px;
+    background-image: linear-gradient(to bottom, #968a08, var(--amarelo));
+    min-height: 150px;/*minimo */
     text-align: center;
     padding-top: 50px;
 }
+
+header > h1{
+    color: #1a791a;
+    font-weight: 700px; /*Peso do negrito*/
+    padding-bottom: 25px;
+}
+
+nav{
+    position: absolute;
+    background-color: var(--verde);
+    width: 50%;
+    text-align: center;
+    top: 25%;
+    left: 25%;
+    padding: 10px;
+    box-shadow: 2px 2px 2px var(--black);
+}
+
+nav > a:hover{
+    background-color: rgb(103, 180, 105);
+    transition-duration: 0.5s;
+    border-radius: 5px;
+}
+
+nav > a{
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+main{
+    background-color: #ffffff;
+    min-width: 320px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+}
+main  h2{
+background-image: linear-gradient(to right, var(--amarelo), var(--verde));
+text-align: center;
+padding: 40px;
+}
+
+main p{
+    font-size: 18px;
+    text-align: justify;
+    text-indent: 40px;
+    margin: 15px 0px;
+    line-height: 1.5em;/*altera a altura da linha*/
+}
+
+img{
+    width: 50%;
+    border:10px double black
+}
+
+figcaption{
+    font-size: 12px;
+}
+
+aside{
+    background-image: linear-gradient(to right, var(--amarelo), transparent); 
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+aside>ul{
+    list-style-position: inside;
+    text-align: justify;
+}
+
+aside>h2{
+    background-color: rgb(71, 152, 123);
+    border-radius: 10px 10px 0 0;
+}
+
