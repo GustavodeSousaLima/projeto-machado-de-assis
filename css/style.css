@@ -20,18 +20,20 @@ body {
 
 header {
     background-image: linear-gradient(to bottom, #968a08, var(--amarelo));
-    min-height: 150px;/*minimo */
+    min-height: 150px;
+    /*minimo */
     text-align: center;
     padding-top: 50px;
 }
 
-header > h1{
+header>h1 {
     color: #1a791a;
-    font-weight: 700px; /*Peso do negrito*/
+    font-weight: 700px;
+    /*Peso do negrito*/
     padding-bottom: 25px;
 }
 
-nav{
+nav {
     position: absolute;
     background-color: var(--verde);
     width: 50%;
@@ -42,19 +44,19 @@ nav{
     box-shadow: 2px 2px 2px var(--black);
 }
 
-nav > a:hover{
+nav>a:hover {
     background-color: rgb(103, 180, 105);
     transition-duration: 0.5s;
     border-radius: 5px;
 }
 
-nav > a{
+nav>a {
     text-decoration: none;
     padding-left: 10px;
     color: var(--black);
 }
 
-main{
+main {
     background-color: #ffffff;
     min-width: 320px;
     max-width: 1000px;
@@ -62,59 +64,102 @@ main{
     padding: 30px;
     text-align: center;
 }
-main  h2{
-background-image: linear-gradient(to right, var(--amarelo), var(--verde));
-text-align: center;
-padding: 40px;
+
+main h2 {
+    background-image: linear-gradient(to right, var(--amarelo), var(--verde));
+    text-align: center;
+    padding: 40px;
 }
 
-main p{
+main p {
     font-size: 18px;
     text-align: justify;
     text-indent: 40px;
     margin: 15px 0px;
-    line-height: 1.5em;/*altera a altura da linha*/
+    line-height: 1.5em;
+    /*altera a altura da linha*/
 }
 
-img{
+img {
     width: 50%;
-    border:10px double black
+    border: 10px double black
 }
 
-figcaption{
+figcaption {
     font-size: 12px;
 }
 
-aside{
-    background-image: linear-gradient(to right, var(--amarelo), transparent); 
+aside {
+    background-image: linear-gradient(to right, var(--amarelo), transparent);
     padding: 10px;
     border-radius: 5px;
 
 }
 
-aside>ul{
+aside>ul {
     list-style-position: inside;
     text-align: justify;
 }
 
-aside>h2{
+aside>h2 {
     background-color: rgb(71, 152, 123);
     border-radius: 10px 10px 0 0;
 }
 
-footer{
+footer {
     text-align: center;
 }
 
-h3{
+h3 {
     margin-bottom: 1%;
 }
 
-figure > img{
+figure>img {
     margin-bottom: 5%;
 }
 
 footer a {
     text-decoration: none;
     color: var(--black);
+}
+
+ol {
+    list-style-position: inside;
+    text-align: start;
+}
+
+ol>li {
+    margin-top: 10%;
+}
+
+ol>p {
+    color: #000000;
+}
+
+#curiosidades {
+    background-image: linear-gradient(to top, var(--verde), var(--amarelo));
+    width: 40%;
+    height: 5%;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: -5%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#tituloemail {
+    background-image: none;
+}
+
+#email {
+    position: absolute;
+    color: #0819d3;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+}
+
+#mainfaleconosco {
+    background-color: var(--amarelo);
 }
